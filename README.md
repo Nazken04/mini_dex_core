@@ -1,13 +1,8 @@
 
 ```markdown
 # High-Performance Order Matching Engine in Rust
-
-![Rust](https://img.shields.io/badge/Rust-2024%20Edition-darkorange?style=for-the-badge&logo=rust)
-![Axum](https://img.shields.io/badge/Axum-Async%20API-blue?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Persistence-blue?style=for-the-badge&logo=postgresql)
-![Docker](https://img.shields.io/badge/Docker-Containerized-blue?style=for-the-badge&logo=docker)
-
 ## Overview
+
 
 This project is a high-performance, concurrent order matching engine—the core backend service of a financial exchange. Developed entirely in Rust, it provides a robust, low-latency solution for processing limit orders, maintaining an in-memory order book, and persisting executed trades to a PostgreSQL database.
 
@@ -110,4 +105,5 @@ Instantly, the logs in **Terminal 1** will show the detection alert *before* the
     ```
 This showcase proves the system is not only functional as an exchange but also demonstrates the deeper, domain-specific awareness required for building robust Web3 applications.
 ```
+
 

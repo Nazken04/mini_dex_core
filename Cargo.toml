@@ -1,0 +1,23 @@
+[package]
+name = "mini_dex_core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.7", features = ["macros"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+# In Cargo.toml
+sqlx = { version = "0.7", features = [
+    "runtime-tokio-rustls",
+    "postgres",
+    "uuid",
+    "rust_decimal",
+    "chrono"
+] }
+dotenv = "0.15"
+rust_decimal = "1.32"
+rust_decimal_macros = "1.32"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
